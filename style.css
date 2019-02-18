@@ -1,0 +1,21 @@
+.col-2 {
+	background-color: #f6f6f6;
+	padding: 3%;
+}
+.col-10 {
+	border: 1px solid #a7d7f9;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	border-bottom: 1px solid #a2a9b1;
+}
+li {
+	list-style-type: none;
+}
+.body .poster {
+	text-align: end;
+}
