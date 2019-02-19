@@ -1,3 +1,7 @@
+body {
+	line-height: 1.6;
+	font-size: 0.875em;
+}
 .col-2,
 .col-3 {
 	background-color: #f6f6f6;
@@ -14,7 +18,8 @@ h5,
 h6 {
 	border-bottom: 1px solid #a2a9b1;
 }
-li {
+.menu li,
+.col-3 li {
 	list-style-type: none;
 }
 .body .poster {
@@ -23,7 +28,8 @@ li {
 	width: 263px;
 	padding-top: 5px;
 }
-.col-3 {
+.col-3,
+.thumbinner {
 	border: 1px solid #a2a9b1;
 }
 .center {
@@ -32,4 +38,17 @@ li {
 }
 .posterStrong {
 	font-size: 80%;
+}
+.thumbinner {
+	width: 182px;
+	line-height: 1.4em;
+	font-size: 94%;
+	height: 202px;
+	margin: 20px;
+}
+.game {
+	border-bottom: 0px;
+}
+p .game {
+	margin: 20px;
 }
